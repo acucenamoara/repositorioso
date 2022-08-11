@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: #E8F1F2;;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: inline-block;	
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    height: 16%;
+    padding-top: 1%;
+    background: linear-gradient(#13293D, #1a3853);
+}
+.superior{
+    display: inline-block;
+    width: 25%;
+    margin-left: 2%;
+}
+.superior h1{
+    color: #E8F1F2;
+    font-family: Garamond;
+    font-size: 40px;
+}
+.menu{
+    display: inline-block;
+    width: 70%;
+    padding-top: 2%;
+    text-align: right;
+    position: relative;
+    margin-right: 2%;
+    left: 10px;
+}
+
+.menu input{
+    width: 200px;
+    height: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Garamond;
+    color: white; 
+    background-color: #284c6e;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #1e3b57;
+    transition: 0.5s;
+}
+.pesquisa{
+    width: 25%;
+    left: 60%;
+    color: white;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #808080;
+    display: inline-flex;
+}
+.container2{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+}
+.lado-direito{
+    display: inline-block;
+    width: 49%;
+}
+.text{
+    position: absolute;
+    top: 20%;
+    padding: 3%;
+    font-size: 14px;
+}
+.imagem{
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    background: #13293D;
+}
+.imagem img{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.desenvolvedores{
+    text-align: center;
+    margin-top: 10%;
+}
+.desenvolvedores ul li{
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+}
+.desenvolvedores img{
+    width: 120px;
+    border-radius: 25px;
+    padding: 10px;
+}
+/* tela fornecedores */
+.container3{
+    padding: 3%;
+}
+.subtitulo hr{
+    border: 0;
+    height: 2px;
+    background: #13293D; 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    font-size: 30px;
+}
+
+/* tela de cadastro */
+.cadastro{
+    padding: 5%;
+    margin: 5%;
+    border-radius: 50px;
+    background-color: white;
+}
+.cadastro input[type=text]{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 5%;
+}
+.cadastro input{
+    background: #E8F1F2;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    height: 5%;
+}
+.cadastro input[type=radio]{
+    width: 15px;
+    height: 15px;
+}
+.cadastro input[type=date]{
+    width: 15%;
+    height: 5%;
+}
+.cadastro textarea{
+    width: 100%;
+    height: 10%;
+    background: #E8F1F2;
+}
+.cadastro select{
+    background: #E8F1F2;
+    height: 5%;
+}
+
+/* tela de usuario */
+.usuario{
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+}
+.usuario table{
+    width: 100%;
+	background-color: white;
+	border-radius: 15px;
+    margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16px;
+}
+.usuario table tr{
+    text-align: left;
+}
+.usuario table tr td{
+    padding: 5px;
+}
+.usuario table tr th{
+    padding-top: 10px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #13293D; 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* login */
+.meio{
+    width: 25%;
+    left: 50%;
+    top: 55%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.fundologin{
+    display: block; 
+    width:100%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 12px;
+
+}
+.fundologin input{
+    background: #E8F1F2;
+}
+.botaoentrar{
+    width: 100%;
+    border-radius: 12px;
+}
+.botaocriar{
+    width: 100%;
+    border-radius: 12px;
+}
+.alzimer a{
+    font-size: 5px;
+}
+
+/* tela fornecedores */
+.container3{
+    padding: 3%;
+}
+.subtitulo hr{
+    border: 0;
+    height: 2px;
+    background: #13293D; 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+table {
+    border: none;
+    width: 100%;
+    margin: 8%;
+    border-radius: 12px;
+    display: block; 
+	background-color: white;
+	font-size: 20px;
+	margin: 4px 2px;
+	border-radius: 12px;
+    
+  }
+th, td {
+    text-align: left;
+    padding: 15px;
+  }
+  tr:nth-child(even) {
+      background-color: white
+  }
+  th {
+    background-color:white ;
+    color:#13293D ;
+  }
+  td{
+    background-color:white ;
+    color:#13293D ;
+  }
